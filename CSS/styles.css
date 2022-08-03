@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    border: 1px solid;
+    justify-content: flex-end;
+    min-height: 10vh;
+}
+
+#navbar ul,li,a{
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
