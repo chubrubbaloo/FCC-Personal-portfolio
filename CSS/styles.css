@@ -225,6 +225,11 @@ a:hover {
     font-size: 25px;
 }
 
+#features h3{
+    color: #be3144;
+
+}
+
 
 .features-grid {
     display: flex;
@@ -236,8 +241,9 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20vw;
-    color: white;
+    width: 10vw;
+    color: #be3144;
+
 }
 
 .description {
@@ -253,7 +259,81 @@ a:hover {
     margin-top: 0;
 }
 
+@media only screen and (max-width: 750px) {
+    .icon{
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+   
+
+    #features h2{
+        font-size: 20px;
+    }
+
+    .description h3{
+        font-size: 15px;
+    }
+
+    .description p{
+        font-size: 10px;
+    }
+  }
+
 
 
 
 /* Provide */
+
+/* contact-secition */
+
+#contact-section{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 17.5vh;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+#contact-section h2{
+    margin: 20px 0;
+    padding: 0 5px;
+    color: white;
+}
+#contact-section p{
+    font-size: 12.5px;
+    color: white;
+}
+
+#contact-links{
+    display: flex;
+    color: white;
+}
+
+#contact-links i{
+    margin-right: 5px;
+}
+
+#contact-links a{
+    padding: 4px;
+}
+
+/* contact-section */
+
+/*  */
+
+#footer-section{
+    border-top: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    min-height: 10vh;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    color: white;
+}
+
+/*  */
